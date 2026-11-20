@@ -3,7 +3,7 @@ game 'gta5'
 use_experimental_fxv2_oal 'yes'
 author 'Forge // AvarianKnight // FjamZoo'
 description 'Forge Siren - PR Bridge e controlador retro em Svelte'
-version '2.0.0'
+version '2.0.2'
 
 lua54 'yes'
 
@@ -25,3 +25,5 @@ files {
     'web/dist/index.html',
     'web/dist/assets/*',
 }
+
+server_script 'server/version.lua'
